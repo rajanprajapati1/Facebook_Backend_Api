@@ -32,7 +32,7 @@ app.use(express.json());
 app.use('/images', express.static(path.join(__dirname, '../src/images')));
 app.use(bodyParser.json());
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://65a8c3df61dae24150151d9c--moonlit-daffodil-ea1816.netlify.app',
     credentials: true,
 }))
 
